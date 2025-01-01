@@ -69,10 +69,10 @@ struct ContentView: View {
                                 spawnpointLocation.y-middleY
                                 
                                 let originXAddition = (originXDifference / middleX) * 8
-                                print(originXAddition)
+                                //print(originXAddition)
                                 
                                 let originYAddition = (originYDifference / middleY) * 8
-                                print(originYAddition)
+                                //print(originYAddition)
                                 
                                 let tempXVelocity = Double.random(in: -(5.0+originXAddition)...(5.0-originXAddition))*10
                                 let tempYVelocity = Double.random(in: -(5.0+originYAddition)...(5.0-originYAddition))*10
